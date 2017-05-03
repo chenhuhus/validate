@@ -1,1 +1,1 @@
-# [validate](https://github.com/chenhuhus/validate)
+# [validate](https://chenhuhus.github.io/validate)
