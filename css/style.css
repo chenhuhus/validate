@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('../fonts/icon.eot?k5cxok');
+  src:  url('../fonts/icon.eot?k5cxok#iefix') format('embedded-opentype'),
+    url('../fonts/icon.ttf?k5cxok') format('truetype'),
+    url('../fonts/icon.woff?k5cxok') format('woff'),
+    url('../fonts/icon.svg?k5cxok#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dis .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.icon-dis .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 95, 95);
+}
+.icon-dis .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-dis .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-like .path1:before {
+  content: "\e904";
+  color: rgb(0, 0, 0);
+}
+.icon-like .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 95, 95);
+}
+.icon-like .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+

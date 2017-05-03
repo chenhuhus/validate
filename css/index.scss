@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #F5F5F5;
+}
+
+label {
+	display: inline-block;
+}
+
+input[type='text'],
+input[type='password'] {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type='checkbox'] {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 6px;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+  content: " ";
+  clear: both;
+}
+
+.icon-dis, .icon-like {
+	font-size: 18px;
+}
+
+.container {
+	background: #fff;
+	width: 75%;
+	height: auto;
+	margin: 50px auto;
+	padding: 30px;
+	border-radius: 5px;
+	min-width: 580px;
+}
+
+.form-group {
+	margin-bottom: 10px;
+
+	.col-l, .col-m, .col-r{
+		float: left;
+	}
+
+	.col-l {
+		width: 20%;
+	}
+
+	.col-m {
+		width: 45%;
+	}
+
+	.col-r {
+		width: 35%;
+	}
+
+	.control-label {
+		padding: 7px 15px 0 15px;
+		text-align: right;
+	}
+
+	.control-div {
+		padding: 0 5px;
+	}
+
+	.col-offset {
+		float: left;
+		margin-left: 20%;
+		margin-top: 8px;
+		padding-left: 5px;
+		width: 40%;
+		font-size: 12px;
+		color: #bbb;
+
+		.judge {
+			display: inline-block;
+			width: 60px;
+			height: 25px;
+			margin-right: 5px;
+			background-color: #f0ad4e;
+			border-radius: 5px;
+			color: #fff;
+			line-height: 25px;
+			text-align: center;
+		}
+
+		.weak.active, .medium.active, .high.active {
+			background: #EF5A4D;
+		}
+
+		.agree {
+			display: inline-block;
+			vertical-align: top;
+			font-size: 12px;
+			color: #333;
+		}
+	}
+
+	#count {
+		color: #F0AD4E;
+		visibility: hidden;
+		font-weight: bold;
+		height: 12px;
+		line-height: 12px;
+	}
+
+	.hint {
+		line-height: 34px;
+		color: #666;
+		font-size: 12px;
+	}
+
+	button {
+		width: 70px;
+		height: 30px;
+		border-radius: 5px;
+		background-color: #337AB7;
+		color: #fff;
+		font-size: 14px;
+		border: none;
+
+		&:hover {
+			background-color: #286090;
+		}
+
+		&[disabled] {
+			background-color: #999;
+			border-color: #999;
+			color: #fff;
+		}
+	}
+
+}
